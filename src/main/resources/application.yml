@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /discard
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dog_status?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: wang741794
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+
+#zookeeper:
+#  address: 127.0.0.1:2181
+  #address: 192.168.31.137:2181
+#  timeout: 4000
